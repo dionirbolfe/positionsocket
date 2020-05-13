@@ -1,0 +1,19 @@
+.leaflet-container {
+    width: 600px;
+    height: 400px;
+    position: relative;
+}
+
+.leaflet-pane {
+    transform: translate3d(-46px, -31px, 0px);
+}
+
+.leaflet-layer {
+    z-index: 1;
+    opacity: 1;
+}
+
+.leaflet-tile-container{
+    z-index: 18;
+    transform: translate3d(0px, 0px, 0px) scale(1);
+}
